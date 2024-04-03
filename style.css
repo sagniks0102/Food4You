@@ -1,0 +1,135 @@
+.header_logo img{
+    width: 170px;
+}
+.first_page{
+    background-image: url(Newfolder/Group_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-size: 100% 100%; */
+    height: 950px;
+}
+.heading{
+    font-family: Gabelisa;
+    font-size: 45px;
+    text-align: center;
+    /* margin-top: 120px; */
+}
+.subHeading{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 12px;
+    font-family: Fredericka the Great ;
+}
+.text{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    font-family:  Montserrat;
+}
+.text2{
+    font-size: 18px;
+    /* text-align: right; */
+    margin-top: 10px;
+    font-family: Fredericka the Great ;
+}
+.text3{
+    font-size: 56px;
+    /* text-align: left; */
+    font-family: Fredericka the Great ;
+}
+.orderNow{
+    font-family:  Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    border: 1px solid #000;
+    padding: 3px 10px 3px 10px;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 15px;
+}
+.second_page h2{
+    font-family: Fredericka the Great ;
+    top: 900px;
+    /* padding: 0 auto; */
+}
+.second_page p{
+    font-family: Montserrat ;
+    /* top: 800px; */
+    /* padding: 0 auto; */
+}
+.secondpage_image img{
+    width: 300px;
+}
+.second_page{
+    background-image: url(Newfolder/bg2.png);
+    /* background-position-y: center; */
+    /* background-size: 50px; */
+    /* background-position: top; */
+    background-size: 100%; /* or contain depending on your preference */
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+}
+.secondpage_image button, .fifth_page button{
+    background-color: #ffe001;
+    font-weight: 700;
+}
+main{
+    margin-top: 250px;
+}
+.forth_page_1stcontainer{
+background-image: url(./Newfolder/Image1.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 525px;
+}
+.forth_page_text{
+    font-family: Montserrat;
+}
+.forth_page_text h3{
+    /* font-family: Montserrat; */
+    font-size: 41.67px;
+    padding-right: 50%;
+    padding-bottom: 40%;
+}
+ .image2{
+    background-image: url(./Newfolder/Image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    }
+ .image3{
+    background-image: url(./Newfolder/Image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    }
+    .fifth_page h5 , .third_page h5{
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    .fifth_page h2 , .third_page h2{
+        font-family: Montserrat;
+        /* font-weight: 600; */
+        font-family: Fredericka the Great ;
+    }
+    .fifth_page button{
+        width: 100%;
+    }
+.footer{
+    background-image: url(Newfolder/FooterBGImage.png);
+}
+.colfooterrYY{
+    color: #ffe001;
+}
+.colfooterl img{
+    height: 65px;
+}
+@media (min-width: 770px) {
+    .fifth_page form{
+        /* background-color: rgb(55, 201, 201); */
+        padding: 0 15%;
+    }
+}
